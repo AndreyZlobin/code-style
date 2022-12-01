@@ -6,7 +6,6 @@
     "lint:styles": "stylelint 'src/**/*{.ts,.tsx}' --fix"
   },
   "dependencies": {
-    "@self/ui": "*",
     "typescript": "^4.7.2",
     "react": "^18.1.0",
     "@types/react": "^18.0.9"
