@@ -1,0 +1,24 @@
+{
+  "name": "@self/eslint-config-base",
+  "main": "index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "commander build",
+    "publish": "npm publish ./lib",
+    "lint": "eslint . --fix --quiet"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "@self/prettier-config": "*"
+  },
+  "devDependencies": {
+    "@self/eslint-config-node": "*"
+  },
+  "peerDependencies": {
+    "eslint": "8.x.x",
+    "prettier": "2.x.x"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@self/prettier-config",
+  "main": "index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "commander build",
+    "publish": "npm publish ./lib",
+    "lint": "eslint . --fix --quiet"
+  },
+  "devDependencies": {
+    "@self/eslint-config-node": "*"
+  },
+  "peerDependencies": {
+    "prettier": "2.x.x"
+  }
+}
