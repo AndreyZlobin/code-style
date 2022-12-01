@@ -3,6 +3,8 @@
 const { hideBin } = require('yargs/helpers');
 const yargs = require('yargs/yargs');
 
+require('dotenv').config();
+
 const { runTask } = require('./main');
 
 const [, , task] = process.argv;

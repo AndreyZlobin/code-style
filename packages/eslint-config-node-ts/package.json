@@ -9,7 +9,7 @@
     "lint": "eslint . --fix --quiet"
   },
   "dependencies": {
-    "@self/eslint-config-base": "^1.0.0",
+    "@self/eslint-config-base": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "~5.27.0",
     "@typescript-eslint/parser": "^5.26.0"
   },

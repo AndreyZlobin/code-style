@@ -4,7 +4,6 @@ const path = require('path');
 const { PACKAGES_NAMES } = require('../constants');
 
 const { RELEASE_TAG } = process.env;
-
 const readPackageJSON = (packageJSONPath) =>
   JSON.parse(fs.readFileSync(packageJSONPath));
 

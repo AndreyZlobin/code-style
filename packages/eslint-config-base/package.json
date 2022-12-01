@@ -12,7 +12,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.0.0",
-    "@self/prettier-config": "*"
+    "@self/prettier-config": "^0.0.1"
   },
   "devDependencies": {
     "@self/eslint-config-node": "*"

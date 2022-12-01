@@ -1,0 +1,60 @@
+name: Release packages
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  releasePackages:
+    name: Release packages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Install dependencies
+        run: npm i
+
+      - name: Build packages
+        run: npm run build
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+
+      - name: Publish @self/eslint-config-base
+        run: npm publish ./packages/eslint-config-base/lib
+        env:
+          NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+
+      - name: Publish @self/eslint-config-node
+        run: npm publish ./packages/eslint-config-node/lib
+        env:
+          NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+
+      - name: Publish @self/eslint-config-node-ts
+        run: npm publish ./packages/eslint-config-node-ts/lib
+        env:
+          NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+
+      - name: Publish @self/eslint-config-react-ts
+        run: npm publish ./packages/eslint-config-react-ts/lib
+        env:
+          NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+
+      - name: Publish @self/stylelint-config-styled
+        run: npm publish ./packages/stylelint-config-styled/lib
+        env:
+          NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+
+      - name: Publish @self/commitlint-config
+        run: npm publish ./packages/commitlint-config/lib
+        env:
+          NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+
+      - name: Publish @self/prettier-config
+        run: npm publish ./packages/prettier-config/lib
+        env:
+          NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
