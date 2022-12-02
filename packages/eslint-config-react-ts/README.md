@@ -1,4 +1,4 @@
-# @self/eslint-config-react-ts
+# @self-kit/eslint-config-react-ts
 
 Eslint config for react with typescript
 
@@ -8,20 +8,20 @@ Eslint config for react with typescript
 
 ### Npm
 ```shell
-npm i eslint prettier @self/eslint-config-react-ts --save-dev 
+npm i eslint prettier @self-kit/eslint-config-react-ts --save-dev 
 ```
 
 ### Yarn
 ```shell
-yarn add eslint prettier @self/eslint-config-react-ts -D
+yarn add eslint prettier @self-kit/eslint-config-react-ts -D
 ```
 
 ```.eslintrc```
 ```json
 {
-  "extends": ["@self/eslint-config-react-ts"]
+  "extends": ["@self-kit/eslint-config-react-ts"]
 }
 ```
 
-```.prettierrc``` файл не нужен так, как он сконфигурирован внутри @self/eslint-config-react-ts
+```.prettierrc``` файл не нужен так, как он сконфигурирован внутри @self-kit/eslint-config-react-ts
 

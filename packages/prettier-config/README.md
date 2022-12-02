@@ -1,4 +1,4 @@
-# @self/prettier-config
+# @self-kit/prettier-config
 
 Prettier config с общими правилами.
 
@@ -7,6 +7,6 @@ Prettier config с общими правилами.
 
 ```.prettierrc.js```
 ```js
-module.exports = require('@self/prettier-config');
+module.exports = require('@self-kit/prettier-config');
 ```
 

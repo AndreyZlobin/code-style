@@ -1,5 +1,5 @@
 {
-  "name": "@self/eslint-config-node",
+  "name": "@self-kit/eslint-config-node",
   "main": "index.js",
   "version": "0.0.1",
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "eslint . --fix --quiet"
   },
   "dependencies": {
-    "@self/eslint-config-base": "^0.0.1",
+    "@self-kit/eslint-config-base": "^0.0.1",
     "eslint-config-airbnb-base": "15.0.0",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/core": "^7.17.12"

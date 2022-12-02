@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@self/stylelint-config-styled'],
+  extends: ['@self-kit/stylelint-config-styled'],
 };

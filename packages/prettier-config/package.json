@@ -1,5 +1,5 @@
 {
-  "name": "@self/prettier-config",
+  "name": "@self-kit/prettier-config",
   "main": "index.js",
   "version": "0.0.1",
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "eslint . --fix --quiet"
   },
   "devDependencies": {
-    "@self/eslint-config-node": "*"
+    "@self-kit/eslint-config-node": "*"
   },
   "peerDependencies": {
     "prettier": "2.x.x"

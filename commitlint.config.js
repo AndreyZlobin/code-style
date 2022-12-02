@@ -1,7 +1,7 @@
 const path = require('path');
 
 // eslint-disable-next-line import/no-extraneous-dependencies
-const { createConfig } = require('@self/commitlint-config');
+const { createConfig } = require('@self-kit/commitlint-config');
 // eslint-disable-next-line import/no-extraneous-dependencies
 const getDirNames = require('read-dir-names');
 

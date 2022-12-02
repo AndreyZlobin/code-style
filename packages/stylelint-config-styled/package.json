@@ -1,5 +1,5 @@
 {
-  "name": "@self/stylelint-config-styled",
+  "name": "@self-kit/stylelint-config-styled",
   "main": "index.js",
   "version": "0.0.1",
   "scripts": {
@@ -19,7 +19,7 @@
     "postcss": "^8.4.14"
   },
   "devDependencies": {
-    "@self/eslint-config-node": "*"
+    "@self-kit/eslint-config-node": "*"
   },
   "peerDependencies": {
     "stylelint": "14.x.x",

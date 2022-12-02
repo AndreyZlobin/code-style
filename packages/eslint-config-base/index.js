@@ -1,4 +1,4 @@
-const prettierConfig = require('@self/prettier-config');
+const prettierConfig = require('@self-kit/prettier-config');
 
 module.exports = {
   extends: ['plugin:prettier/recommended'],

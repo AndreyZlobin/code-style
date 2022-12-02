@@ -1,5 +1,5 @@
 {
-  "name": "@self/node-eslint-example",
+  "name": "@self-kit/node-eslint-example",
   "private": true,
   "scripts": {
     "lint": "eslint . --fix --quiet"
@@ -8,6 +8,6 @@
     "express": "^4.18.1"
   },
   "devDependencies": {
-    "@self/eslint-config-node": "*"
+    "@self-kit/eslint-config-node": "*"
   }
 }

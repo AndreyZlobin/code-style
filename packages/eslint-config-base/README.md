@@ -1,4 +1,4 @@
-# @self/eslint-config-base
+# @self-kit/eslint-config-base
 
 Eslint config с базовыми общими правилами.
 
@@ -9,7 +9,7 @@ Eslint config с базовыми общими правилами.
 
 ```json
 {
-  "extends": ["airbnb-base", "@self/eslint-config-base"]
+  "extends": ["airbnb-base", "@self-kit/eslint-config-base"]
 }
 ```
 

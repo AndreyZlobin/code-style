@@ -1,5 +1,5 @@
 {
-  "name": "@self/code-style-examples",
+  "name": "@self-kit/code-style-examples",
   "private": true,
   "scripts": {
     "lint": "eslint . --fix --quiet",
@@ -11,8 +11,8 @@
     "@types/react": "^18.0.9"
   },
   "devDependencies": {
-    "@self/eslint-config-react-ts": "*",
-    "@self/stylelint-config-styled": "*",
+    "@self-kit/eslint-config-react-ts": "*",
+    "@self-kit/stylelint-config-styled": "*",
     "stylelint": "^14.8.5",
     "eslint": "^8.15.0",
     "prettier": "^2.6.2"

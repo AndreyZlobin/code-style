@@ -1,5 +1,5 @@
 {
-  "name": "@self/eslint-config-base",
+  "name": "@self-kit/eslint-config-base",
   "main": "index.js",
   "version": "0.0.1",
   "scripts": {
@@ -12,10 +12,10 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.0.0",
-    "@self/prettier-config": "^0.0.1"
+    "@self-kit/prettier-config": "^0.0.1"
   },
   "devDependencies": {
-    "@self/eslint-config-node": "*"
+    "@self-kit/eslint-config-node": "*"
   },
   "peerDependencies": {
     "eslint": "8.x.x",

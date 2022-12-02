@@ -5,7 +5,7 @@ const getDirNames = require('read-dir-names');
 // получаем имена всех пакетов, которые необходимо релизить
 const packagesNames = getDirNames(
   path.resolve(__dirname, '..', 'packages'),
-).map((packageName) => `@self/${packageName}`);
+).map((packageName) => `@self-kit/${packageName}`);
 
 const DIST_DIR_NAME = 'lib';
 

@@ -1,4 +1,4 @@
-# @self/stylelint-config-styled
+# @self-kit/stylelint-config-styled
 
 Stylelint config for styled
 
@@ -9,18 +9,18 @@ Stylelint config for styled
 
 ### Npm
 ```shell
-npm i stylelint @self/stylelint-config-styled --save-dev 
+npm i stylelint @self-kit/stylelint-config-styled --save-dev 
 ```
 
 ### Yarn
 ```shell
-yarn add stylelint @self/stylelint-config-styled -D
+yarn add stylelint @self-kit/stylelint-config-styled -D
 ```
 
 ```.stylelintrc```
 ```json
 {
-  "extends": ["@self/stylelint-config-styled"]
+  "extends": ["@self-kit/stylelint-config-styled"]
 }
 ```
 

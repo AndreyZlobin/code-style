@@ -1,5 +1,5 @@
 {
-  "name": "@self/eslint-config-node-ts",
+  "name": "@self-kit/eslint-config-node-ts",
   "main": "index.js",
   "version": "0.0.1",
   "scripts": {
@@ -9,12 +9,12 @@
     "lint": "eslint . --fix --quiet"
   },
   "dependencies": {
-    "@self/eslint-config-base": "^0.0.1",
+    "@self-kit/eslint-config-base": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "~5.27.0",
     "@typescript-eslint/parser": "^5.26.0"
   },
   "devDependencies": {
-    "@self/eslint-config-node": "*"
+    "@self-kit/eslint-config-node": "*"
   },
   "peerDependencies": {
     "eslint": "8.x.x",

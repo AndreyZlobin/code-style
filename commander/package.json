@@ -1,5 +1,5 @@
 {
-  "name": "@self/commander",
+  "name": "@self-kit/commander",
   "version": "0.0.1",
   "private": true,
   "bin": "./index.js",
@@ -16,6 +16,6 @@
     "yargs": "^17.5.1"
   },
   "devDependencies": {
-    "@self/eslint-config-node": "*"
+    "@self-kit/eslint-config-node": "*"
   }
 }

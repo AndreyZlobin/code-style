@@ -1,4 +1,4 @@
-# @self/commitlint-config
+# @self-kit/commitlint-config
 
 # Usage
 
@@ -6,18 +6,18 @@
 
 ### Npm
 ```shell
-npm i commitlint @self/commitlint-config --save-dev 
+npm i commitlint @self-kit/commitlint-config --save-dev 
 ```
 
 ### Yarn
 ```shell
-yarn add commitlint @self/commitlint-config -D
+yarn add commitlint @self-kit/commitlint-config -D
 ```
 
 ### Configuration
 ```commitlint.config.js```
 ```js
-const { createConfig } = require('@self/commitlint-config');
+const { createConfig } = require('@self-kit/commitlint-config');
 
 module.exports = createConfig({
   scopes: ['ui', 'server'],
@@ -60,7 +60,7 @@ Default ENUM:
 # API
 ## createConfig
 ```ts
-const { createConfig } = require('@self/commitlint-config');
+const { createConfig } = require('@self-kit/commitlint-config');
 
 type Params = {
   /**

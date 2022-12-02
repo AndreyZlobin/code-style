@@ -1,5 +1,5 @@
 {
-  "name": "@self/eslint-config-react-ts",
+  "name": "@self-kit/eslint-config-react-ts",
   "main": "index.js",
   "scripts": {
     "dev": "tsc --watch",
@@ -8,7 +8,7 @@
     "lint": "eslint . --fix --quiet"
   },
   "dependencies": {
-    "@self/eslint-config-base": "^0.0.1",
+    "@self-kit/eslint-config-base": "^0.0.1",
     "eslint-config-airbnb-typescript": "~17.0.0",
     "eslint-plugin-jsx-a11y": "~6.5.1",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
@@ -17,7 +17,7 @@
     "eslint-plugin-react-hooks": "~4.5.0"
   },
   "devDependencies": {
-    "@self/eslint-config-node": "*"
+    "@self-kit/eslint-config-node": "*"
   },
   "peerDependencies": {
     "eslint": "8.x.x",

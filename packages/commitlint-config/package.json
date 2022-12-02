@@ -1,5 +1,5 @@
 {
-  "name": "@self/commitlint-config",
+  "name": "@self-kit/commitlint-config",
   "main": "index.js",
   "version": "0.0.1",
   "scripts": {
@@ -13,7 +13,7 @@
     "commitlint-plugin-function-rules": "^1.7.1"
   },
   "devDependencies": {
-    "@self/eslint-config-node": "*"
+    "@self-kit/eslint-config-node": "*"
   },
   "peerDependencies": {
     "commitlint": ">=16.x.x"

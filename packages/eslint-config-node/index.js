@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-base', '@self/eslint-config-base'],
+  extends: ['airbnb-base', '@self-kit/eslint-config-base'],
   parser: '@babel/eslint-parser',
   parserOptions: {
     requireConfigFile: false,
