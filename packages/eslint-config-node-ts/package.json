@@ -1,7 +1,7 @@
 {
   "name": "@self-kit/eslint-config-node-ts",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "tsc --watch",
     "build": "commander build",
@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@self-kit/eslint-config-base": "^0.0.1",
-    "@typescript-eslint/eslint-plugin": "~5.27.0",
-    "@typescript-eslint/parser": "^5.26.0"
+    "@typescript-eslint/eslint-plugin": "~5.45.0",
+    "@typescript-eslint/parser": "^5.45.0"
   },
   "devDependencies": {
     "@self-kit/eslint-config-node": "*"

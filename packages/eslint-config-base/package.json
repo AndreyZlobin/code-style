@@ -1,7 +1,7 @@
 {
   "name": "@self-kit/eslint-config-base",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "tsc --watch",
     "build": "commander build",
@@ -11,7 +11,7 @@
   "dependencies": {
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-prettier": "4.2.1",
     "@self-kit/prettier-config": "^0.0.1"
   },
   "devDependencies": {

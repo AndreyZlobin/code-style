@@ -1,7 +1,7 @@
 {
   "name": "@self-kit/eslint-config-node",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "tsc --watch",
     "build": "commander build",
@@ -11,8 +11,8 @@
   "dependencies": {
     "@self-kit/eslint-config-base": "^0.0.1",
     "eslint-config-airbnb-base": "15.0.0",
-    "@babel/eslint-parser": "^7.17.0",
-    "@babel/core": "^7.17.12"
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/core": "^7.20.5"
   },
   "peerDependencies": {
     "eslint": "8.x.x",

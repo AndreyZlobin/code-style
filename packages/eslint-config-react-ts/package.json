@@ -10,11 +10,11 @@
   "dependencies": {
     "@self-kit/eslint-config-base": "^0.0.1",
     "eslint-config-airbnb-typescript": "~17.0.0",
-    "eslint-plugin-jsx-a11y": "~6.5.1",
-    "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0",
-    "eslint-plugin-react": "~7.30.0",
-    "eslint-plugin-react-hooks": "~4.5.0"
+    "eslint-plugin-jsx-a11y": "~6.6.1",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint-plugin-react": "~7.31.11",
+    "eslint-plugin-react-hooks": "~4.6.0"
   },
   "devDependencies": {
     "@self-kit/eslint-config-node": "*"

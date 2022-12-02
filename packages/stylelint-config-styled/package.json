@@ -1,7 +1,7 @@
 {
   "name": "@self-kit/stylelint-config-styled",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "tsc --watch",
     "build": "commander build",
@@ -9,14 +9,14 @@
     "lint": "eslint . --fix --quiet"
   },
   "dependencies": {
-    "stylelint-config-prettier": "~9.0.3",
+    "stylelint-config-prettier": "~9.0.4",
     "stylelint-config-rational-order": "~0.1.2",
     "stylelint-config-standard": "~25.0.0",
     "stylelint-order": "~5.0.0",
     "stylelint-prettier": "^2.0.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "postcss-syntax": "^0.36.2",
-    "postcss": "^8.4.14"
+    "postcss": "^8.4.19"
   },
   "devDependencies": {
     "@self-kit/eslint-config-node": "*"
