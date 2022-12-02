@@ -25,36 +25,36 @@ jobs:
           RELEASE_TAG: ${{ github.event.release.tag_name }}
 
       - name: Publish @self-kit/eslint-config-base
-        run: npm publish ./packages/eslint-config-base/lib
+        run: npm publish ./packages/eslint-config-base/lib --access public
         env:
           NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
 
       - name: Publish @self-kit/eslint-config-node
-        run: npm publish ./packages/eslint-config-node/lib
+        run: npm publish ./packages/eslint-config-node/lib --access public
         env:
           NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
 
       - name: Publish @self-kit/eslint-config-node-ts
-        run: npm publish ./packages/eslint-config-node-ts/lib
+        run: npm publish ./packages/eslint-config-node-ts/lib --access public
         env:
           NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
 
       - name: Publish @self-kit/eslint-config-react-ts
-        run: npm publish ./packages/eslint-config-react-ts/lib
+        run: npm publish ./packages/eslint-config-react-ts/lib --access public
         env:
           NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
 
       - name: Publish @self-kit/stylelint-config-styled
-        run: npm publish ./packages/stylelint-config-styled/lib
+        run: npm publish ./packages/stylelint-config-styled/lib --access public
         env:
           NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
 
       - name: Publish @self-kit/commitlint-config
-        run: npm publish ./packages/commitlint-config/lib
+        run: npm publish ./packages/commitlint-config/lib --access public
         env:
           NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
 
       - name: Publish @self-kit/prettier-config
-        run: npm publish ./packages/prettier-config/lib
+        run: npm publish ./packages/prettier-config/lib --access public
         env:
           NPM_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
