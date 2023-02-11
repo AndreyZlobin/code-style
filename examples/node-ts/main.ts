@@ -5,6 +5,9 @@ const app = express();
 app.get('/', (req, _, next) => {
   if (req.cookies.token !== 'token') {
     req.cookies.token = 'token';
+    req.cookies.token = 'token';
+    req.cookies.token = 'token';
+    req.cookies.token = 'token';
   }
 
   if (req.cookies.token !== 'token') {

@@ -7,13 +7,13 @@
     "lint": "eslint ./ --fix --quiet"
   },
   "dependencies": {
-    "@commitlint/lint": "^17.0.3",
-    "@commitlint/load": "^17.0.3",
+    "@commitlint/lint": "^17.4.2",
+    "@commitlint/load": "^17.4.2",
     "dotenv": "^16.0.3",
     "read-dir-names": "1.0.0",
-    "recursive-copy": "^2.0.10",
-    "shelljs": "^0.8.4",
-    "yargs": "^17.5.1"
+    "recursive-copy": "^2.0.14",
+    "shelljs": "^0.8.5",
+    "yargs": "^17.6.2"
   },
   "devDependencies": {
     "@self-kit/eslint-config-node": "*"

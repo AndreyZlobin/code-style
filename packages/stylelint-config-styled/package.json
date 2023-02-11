@@ -9,14 +9,14 @@
     "lint": "eslint . --fix --quiet"
   },
   "dependencies": {
-    "stylelint-config-prettier": "~9.0.4",
+    "stylelint-config-prettier": "~9.0.5",
     "stylelint-config-rational-order": "~0.1.2",
     "stylelint-config-standard": "~25.0.0",
     "stylelint-order": "~5.0.0",
     "stylelint-prettier": "^2.0.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "postcss-syntax": "^0.36.2",
-    "postcss": "^8.4.19"
+    "postcss": "^8.4.21"
   },
   "devDependencies": {
     "@self-kit/eslint-config-node": "*"
