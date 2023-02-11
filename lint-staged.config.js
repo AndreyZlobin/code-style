@@ -7,7 +7,7 @@ const packagesCommands = getDirNames(
   path.resolve(__dirname, 'packages'),
 ).reduce(
   (result, packageName) => ({
-    [`packages/${packageName}/**/*.{js}`]: [
+    [`packages/${packageName}/**/*.js`]: [
       `npm run lint --workspace=@self-kit/${packageName}`,
     ],
   }),
@@ -16,5 +16,5 @@ const packagesCommands = getDirNames(
 
 module.exports = {
   ...packagesCommands,
-  'commander/**/*.{js}': ['npm run lint --workspace=@self-kit/commander'],
+  'commander/**/*.js': ['npm run lint --workspace=@self-kit/commander'],
 };
